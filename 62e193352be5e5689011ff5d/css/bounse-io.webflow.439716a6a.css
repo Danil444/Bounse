@@ -698,7 +698,7 @@ blockquote {
   display: flex;
   overflow: hidden;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 200px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -992,6 +992,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-color: #000;
+  display: none;
 }
 
 .project-container {
@@ -1973,6 +1974,7 @@ blockquote {
   padding-left: 100px;
   border-bottom: 1px solid #374441;
   background-color: #000;
+  display: none;
 }
 
 .blog-block {
