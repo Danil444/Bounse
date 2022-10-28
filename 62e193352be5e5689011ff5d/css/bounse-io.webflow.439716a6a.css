@@ -12,6 +12,7 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+   .image-17
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -130,6 +131,12 @@ blockquote {
   font-weight: 400;
   letter-spacing: 1.28px;
   text-transform: uppercase;
+}
+
+.clouse {
+  background-color: #232323;
+  pointer-events: none;
+  display: none;
 }
 
 .nav-link:hover {
@@ -2326,6 +2333,7 @@ blockquote {
 .page-link {
   color: #fff;
   text-decoration: none;
+  pointer-events: none;
 }
 
 .footer-email-wrapper {
@@ -5518,21 +5526,25 @@ blockquote {
 .image-17 {
   width: 5vh;
   height: 3vh;
+  pointer-events: none;
 }
 
 .image-18 {
   width: 5vh;
   height: 3vh;
+  pointer-events: none;
 }
 
 .image-19 {
   width: 5vh;
   height: 3vh;
+  pointer-events: none;
 }
 
 .image-20 {
   width: 5vh;
   height: 3vh;
+  pointer-events: none;
 }
 
 .div-block-35 {
