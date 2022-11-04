@@ -3996,8 +3996,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1px solid #383a41;
-  border-bottom: 1px solid #383a41;
+  border-top: 0px solid #383a41;
+  border-bottom: 0px solid #383a41;
 }
 
 .contact-form {
@@ -4010,13 +4010,15 @@ blockquote {
 
 .text-field {
   height: auto;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   padding-top: 28px;
   padding-bottom: 28px;
   padding-left: 68px;
+  padding-right: 20px;
   border-style: none none solid;
-  border-width: 1px;
-  border-color: #000 #000 #383a41;
+  border-width: 0px;
+  border-radius: 20px;
+  border-color: #383a41 #383a41 #383a41;
   background-color: #17181d;
   font-family: 'Satoshi variable', sans-serif;
   color: #fff;
@@ -4086,6 +4088,7 @@ blockquote {
   background-position: 32px 50%;
   background-size: 24px 24px;
   background-repeat: no-repeat;
+  padding-right: 20px;
 }
 
 .text-field.mail-field {
@@ -4112,24 +4115,26 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-bottom: 1px solid #383a41;
+  border-bottom: 0px solid #383a41;
 }
 
 .submit-button {
   width: 100%;
   height: 80px;
-  background-color: #4112fe;
+  background-color: #a9ffee;
   font-family: 'Satoshi variable', sans-serif;
+  color: #000;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   text-transform: uppercase;
+  border-radius: 20px;
 }
 
 .form-block {
   margin-bottom: 0px;
-  border-right: 1px solid #383a41;
-  border-left: 1px solid #383a41;
+  border-right: 0px solid #383a41;
+  border-left: 0px solid #383a41;
 }
 
 .location-tittle-container {
@@ -4188,6 +4193,11 @@ blockquote {
 .div-block-4 {
   width: 50%;
   padding-right: 24px;
+}
+
+.div-block-412 {
+  width: 50%;
+  padding-left: 24px;
 }
 
 .map-card {
